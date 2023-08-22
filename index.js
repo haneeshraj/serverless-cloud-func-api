@@ -21,3 +21,10 @@ app.use(notFound);
 app.use(errorHandler);
 
 exports.blog = app;
+
+// https://us-central1-blog-stackruit-1.cloudfunctions.net/blog-funcs-1 - LIVE serverless cloud function API
+// Server is connected to MongoDB Cloud in an environmental variable (MONGO_URI)
+// All available routes - /api/blogs - GET, POST, DELETE
+//                      - /api/blogs/id - GET, DELETE, PUT
+// For more indept loop on each controller and routes, please refer the controller and routes folder!
+// - Haneesh Raj
